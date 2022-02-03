@@ -14,7 +14,9 @@
  * dire un tableau qui contiendra de petits tableaux qui sont les paires ligne-colonne.
  * 
  */
- function ()
+ function function name(params) {
+     
+ }()
 
 /**
  * Ce log ne fait pas partie de l'exercice, ne vous en préoccupez donc pas, mais il vous aidera à afficher vos tests avec un joli formattage.
@@ -42,4 +44,6 @@
  * *********
  * 
  */
- function ()
+ function function name(params) {
+     
+ }()
