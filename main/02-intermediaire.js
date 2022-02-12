@@ -12,8 +12,8 @@ function combine(tableau1, tableau2) {
     }
     return newTable;
 }
-var tableau1Combine = [1, 2, 3, 4];
-var tableau2Combine = ['apple', 'banana', 'orange', 'lemon'];
+var tableau1Combine = [1, 2, 3];
+var tableau2Combine = ['apple', 'banana', 'orange'];
 console.log(combine(tableau1Combine, tableau2Combine));
 /**
  * Programmer une fonction prenant en argument un tableau d'éléments et une valeur offset, et qui renvoie un tableau avec les valeurs du tableau en argument décalées de la valeur
