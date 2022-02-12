@@ -30,7 +30,7 @@ function rotate(tableau, offset) {
     }
     return newTable
 }
-var tableauRotate = [1, 2, 3, 4, 5, 6, 7, 8];
+var tableauRotate = [1, 2, 3, 4, 5, 6];
 console.log(rotate(tableauRotate, 2));
 
 /**
