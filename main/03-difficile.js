@@ -14,14 +14,37 @@
  * dire un tableau qui contiendra de petits tableaux qui sont les paires ligne-colonne.
  * 
  */
- function function name(params) {
-     
- }()
+ function mvtfou(ligne, colonne) {
+    var newTable = [];
+    var k = 1;
+    while(ligne+k <= 8 && colonne+k <= 8) {
+        newTable.push([ligne+k, colonne+k])
+        k++;
+    }
+    k = 1;
+    while(ligne+k <= 8 && colonne-k >= 1) {
+        newTable.push([ligne+k, colonne+k])
+        k++;
+    }
+    k = 1;
+    while(ligne-k >= 1 && colonne-k >= 1) {
+        newTable.push([ligne+k, colonne+k])
+        k++;
+    }
+
+    k = 1;
+    while(ligne-k >= 1 && colonne+k <= 8) {
+        newTable.push([ligne+k, colonne+k])
+        k++;
+    }
+    return newTable
+}
+console.log(mvtfou(6, 6))
 
 /**
  * Ce log ne fait pas partie de l'exercice, ne vous en préoccupez donc pas, mais il vous aidera à afficher vos tests avec un joli formattage.
  */
- console.log(`Les movements d'un fou sont : ${mouvementsFou(4, 4).map(cell => `[${cell}]`)}`)
+ console.log(`Les movements d'un fou sont : ${mvtfou(4, 4).map(cell => `[${cell}]`)}`)
 
 
 
@@ -44,6 +67,4 @@
  * *********
  * 
  */
- function function name(params) {
-     
- }()
+ 
